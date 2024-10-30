@@ -1,0 +1,49 @@
+.arrow {
+	margin-left: 0;
+}
+
+/* Tooltip container */
+.mrf-customTooltip {
+	position: relative;
+	display: inline-block;
+}
+
+/* Tooltip text */
+.mrf-tiptext {
+	visibility: hidden;
+	width: 300px;
+	background-color: $gray-900;
+	color: #fff;
+	text-align: center;
+	padding: 0.25rem 0.5rem;
+	border-radius: 6px;
+
+	/* Position the tooltip text */
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+
+	/* Fade in tooltip */
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.mrf-tiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: $gray-900 transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.mrf-customTooltip:hover .mrf-tiptext {
+	visibility: visible;
+	opacity: 1;
+}

@@ -1,0 +1,192 @@
+alerts.canManageAdsTxt: "We can't manage your ads.txt file automatically, we need write access to the ads.txt file to add the Marfeel lines, you can find <a href='https://www.marfeel.com/docs/marfeelpress/activation-requirements.html#ads-txt-file-must-be-writable' target='_blank'>more information here</a>"
+alerts.hasApiAccess: "We need access to your wordpress API to show the correct content in your Marfeel version, get some <a href='https://www.marfeel.com/docs/marfeelpress/activation-requirements.html#api-rest-must-be-accessible' target='_blank'>help about the API usage</a>"
+alerts.hasEnoughContent: "Your site doesn't have enough articles to take the most out of MarfeelPress. If this a \"test\" site, we recommend you to <a href='https://www.marfeel.com/docs/marfeelpress/activation-requirements.html#blog-must-have-at-least-3-posts-and-should-not-be-an-e-commerce-or-corporate-site' target='_blank'>match the requirements</a> and add more articles to test it, or to review our success stories in our <a href='https://www.marfeel.com/' target='_blank'>website</a>"
+alerts.hasDeviceDetection: "You are showing the same version for mobile and desktop users, Marfeel will be faster you enable device detecion feature, <a href='https://www.marfeel.com/docs/marfeelpress/activation-requirements.html#cdn-cache-plugins-with-device-detection' target='_blank'>read more about this topic</a>"
+alerts.isLiveAvailable: "Sorry, your Marfeel version is not ready yet, please try again in a couple of minutes"
+
+# Appearance
+ui.panel: "This is a very Alpha version, that's why we don't have a proper description. Sorry"
+site.identity: "Site identity"
+logo: "Logo"
+logo.description: "Must be a transparent PNG Minimum dimensions: 80px width by 90px height. Recommended dimensions: 200px width by 80px height"
+font.main.title: "Headings font family"
+font.secondary.title: "Body font family"
+theme.title: "Color scheme"
+show_clock: "Show clock"
+
+color.select: "Select color"
+color.primary.title: "Header color (main color)"
+color.secondary.title: "Accent color (secondary color)"
+
+social.title: "Social"
+social.component: "Order the sharing options"
+social.description_1: "Drag to the top you preferred networks. You can drag any item from one group to the other."
+social.description_2: "The first four will be visible, while the others will appear when tapping on the more options icon."
+social.app_id: "Facebook App Id"
+social.app_id.description: "Facebook app id is used for taking advantage of native share. Marfeel one is going to be used in case of not being provided."
+social.twitter_account: "Twitter account"
+social.twitter_account.description: "Add your twitter's account name"
+
+
+amp: "AMP"
+amp.logo: "AMP carousel logo"
+amp.logo.description: "Must be a transparent PNG Minimum dimensions: exactly 600px width or exactly 60px height. Must work on white backgrounds"
+
+lateral_menu: "Lateral menu"
+lateral_menu.search_bar: "Search bar"
+lateral_menu.search_url: "Add the url of the search (optional)"
+lateral_menu.search_name: "Add the parameter name the search"
+lateral_menu.home_name: "Home section name"
+lateral_menu.apps: "Native App"
+lateral_menu.apps_description: "(Only if you already have a native app version of your site)"
+lateral_menu.logo: "App Icon"
+lateral_menu.logo.description: "PNG dimension: 120px width by 120px height"
+
+topmedia: "Main top article photo"
+topmedia.disable: "Disable article's top photo"
+topmedia.aspect_ratio: "Preserve original ratio"
+topmedia.enable_caption: "Enable photo caption"
+topmedia.reading_time: "Enable reading time"
+article_details: "Article details"
+article_details.author: "Show author"
+article_details.category: "Show category"
+article_details.date: "Show publish date"
+article_details.tags: "Show related tags"
+article_mosaic: "Articles mosaic"
+article_mosaic.comments: "Show comments"
+
+menus: "Menus"
+menus.new: "New menu"
+menus.new.name: "Name new menu"
+menus.description: "This section is dedicated to the configuration of the menus"
+menus.location: "Menu location"
+menus.location.description: "Select the Marfeel menu"
+
+footer: "Footer"
+footer.image: "Footer image"
+footer.image.description: "Must be a transparent PNG. Minimum dimensions: 80px width by 80px height. Recommended dimensions: 120px width by 120px height"
+footer.copy: "Footer copyright"
+footer.copy.description: "Insert text that you want to appear in the custom footer. HTML is not allowed"
+footer.classic_version: "Classic version"
+footer.classic_version.description: "Enables link to classic version of website"
+
+cookies: "Cookies"
+cookies.policy: "Cookies Policy"
+cookies.policy.title: "Link"
+cookies.policy.description: "This will only be displayed to EU readers"
+
+# Pages
+mrf.page.start: "Getting started"
+mrf.page.general: "General"
+mrf.page.settings: "Settings"
+mrf.page.account: "Account"
+mrf.page.notifications: "Notifications"
+
+# Settings
+mrf.setting.ads: "Advertisement"
+mrf.setting.adstxt: "Ads.txt"
+mrf.setting.metrics: "Metrics"
+mrf.setting.branding: "Branding"
+mrf.setting.comments: "Comments"
+mrf.setting.pwa_press: "PWA"
+mrf.setting.plugin: "Settings"
+mrf.setting.onboarding: "Onboarding"
+mrf.setting.notifications: "Notifications"
+mrf.setting.looknfeel: "Look & Feel"
+mrf.setting.sections: "Sections"
+mrf.setting.socialNetworks: "Social"
+mrf.setting.advertising: "Native Ads"
+
+action.save: "Save changes"
+
+mrf.activation: "Activation"
+mrf.activation.all: 'All mobile device users. <span class="text-muted">Every session will show the marfeel version in mobile devices</span>'
+mrf.activation.logged: 'Logged users. <span class="text-muted">Only sessions that are logged in can see this version</span>'
+mrf.activation.off: 'Nobody. If you select this option you will DEACTIVATE MarfeelPress. <div class="text-muted">Only you will be able to see the preview of the Marfeel version.</div>'
+
+post.marfeelizable: "Don't Marfeelize this post"
+post.amp.active: "Don't activate AMP in this post"
+post.topmedia: "Don't show top media for this article"
+
+category.marfeelizable: "Don't Marfeelize"
+category.marfeelizable.description: "Don't Marfeelize this category"
+
+# Settings Template:
+plugin.availability: "Choose who can see the Marfeelized version:"
+mode.off: "Nobody"
+mode.logged: "Only logged users"
+mode.all: "All"
+
+# Template PWA
+update: "Update"
+activate.pwa: "Activate PWA"
+manifest.intro: "Configure the way the homescreen app will be shown"
+manifest.name: "App name"
+manifest.shortname: "Shortname"
+manifest.icon: "App icon"
+
+iso.lang: "en-US"
+
+# General
+activate.amp: "Activate AMP"
+activate.mrf_router: "Activate Warda (not recommended when having custom cache or CDN plugins)"
+activate.mrf_router.warning-disabled: "Can't activate Warda with your current cache configuration"
+activate.mrf_router.warning-not-advisable: "It is not recommended to activate Warda, you have an unsupported cache plugin installed"
+activate.custom_garda: "Use a custom Marfeel script"
+activate.sticky-posts-on-top: "Preserve sticky posts order"
+activate.leroy: "Activate MarfeelPress customization screens"
+activate.cache: "Activate cache for MarfeelPress requests"
+amp.error: "can't activate AMP because one of the following plugins is active: Marfeel or AMP"
+activate.multilanguage: "Activate Multilanguage"
+activate.multilanguage.options: "Languages (ISO 639-1)"
+insight-token.not-signedin: "<b>MarfeelPress</b>: In order for the plugin to work you need to complete the  <a href=\"/wp-admin/admin.php?page=mrf-signup\">signup/signin</a> process."
+
+# Advanced
+tenant.name: "Tenant name"
+tenant.uri: "Tenant url"
+authentication: "Authentication"
+service.worker.name: "Service worker name"
+post_type: "Marfeel version for:"
+insight_token.show: "Show Insight Token"
+insight_token.hide: "Hide Insight Token"
+insight_token.label: "mrf-key"
+
+amp.url: AMP permalinks
+amp.url.params: Use parameters with value
+amp.url.paramsnv: Use parameters
+amp.url.segments: Use url segments
+amp.url.tooltip: Accelerated Mobile Pages (AMP) is a project created to improve the performance of web pages for mobile devices.
+
+#Sticky ads
+above.shareOptions: "Above Share Options"
+below.shareOptions: "Below Share Options"
+
+#offline
+offline.no.connection: "No connection"
+offline.last.update.message: "Last update"
+
+# Other
+home: "Home"
+
+mrf.mobile_cache: "Your cache plugin is not detecting mobile devices, do you want us to activate it for you?"
+mrf.mobile_cache-then_warda: "To activate WARDA your cache plugin needs to detect mobile devices, do you want us to activate it for you?"
+
+mrf.confirm.cancel: "Cancel"
+mrf.confirm.ok: "Accept"
+
+# Deactivation popup
+mrf.deactivation_popup.title: "Deactivate site"
+mrf.deactivation_popup.help_improving: "Help improving MarfeelPress"
+mrf.deactivation_popup.fill_information: "Please fill the following information"
+mrf.deactivation_popup.reason: "Reason of deactivation"
+mrf.deactivation_popup.additional_comments: "Additional comments"
+mrf.deactivation_popup.additional_comments_placeholder: "Share any additional information about the reason of desactivation, in order to improve the plugin"
+mrf.deactivation_popup.deactivate: "Deactivate"
+mrf.deactivation_popup.back: "Back"
+mrf.deactivation_popup.deactivation_logo_alt: "Deactivation logo"
+mrf.deactivation_popup.reason.doesnt_display: "The Marfeel version doesn't display on mobile."
+mrf.deactivation_popup.reason.dont_see_ads: "Ads don't display on my site."
+mrf.deactivation_popup.reason.more_money: "I used to earn more money before using Marfeelpress."
+mrf.deactivation_popup.reason.menu_problem: "There is a problem with my menu."
+mrf.deactivation_popup.reason.others: "Other."
+mrf.deactivation_popup.additional_comments_required: "The additional comments field is required."

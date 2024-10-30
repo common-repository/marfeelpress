@@ -1,0 +1,38 @@
+// TODO: REMOVE IT WHEN ATOMIC IMPORT DONE PROPERLY
+.navbar {
+	.mrf-wp &:before {
+		margin-left: calc(50% - #{$content-max-width / 2} + 2rem);
+	}
+
+	.mrf-wp &-title {
+		position: initial;
+		transform: initial;
+
+		.bi {
+			margin-top: -4px;
+			margin-right: 6px;
+			font-size: 1.5em;
+		}
+	}
+
+	@media (max-width: 1300px) {
+		.mrf-wp &:not(.no-logo):before {
+			margin-left: calc(200px + 3rem);
+		}
+		.mrf-wp &-title {
+			position: initial;
+			transform: none;
+		}
+	}
+
+	.steps-counter {
+		right: calc(100% - 1160px);
+		position: absolute;
+		width: 20rem;
+
+		&:hover {
+			color: $white;
+			text-decoration: none;
+		}
+	}
+}

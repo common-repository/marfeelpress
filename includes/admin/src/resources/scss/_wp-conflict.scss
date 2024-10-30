@@ -1,0 +1,82 @@
+$headerHeight: 60px;
+$breadcrumbHeight: 52px;
+$actionButtonsHeight: 59px;
+$addSectionHeight: 50px;
+$wpHeader: 90px;
+
+.mrf-wp {
+	margin-left: -20px;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+
+	.footer {
+		width: calc(100% + 20px);
+	}
+
+	.card {
+		padding: inherit !important;
+		max-width: initial !important;
+		margin-top: 5px;
+	}
+
+	#app.mrf-app .preview {
+		float: none;
+	}
+	.mrf-app {
+		margin: unset;
+		max-width: unset;
+		& > div:not(.loading-modal) {
+			padding: 1.5rem;
+		}
+	}
+
+	#settings-container {
+		height: calc(100vh - #{$headerHeight} - #{$breadcrumbHeight} - #{$wpHeader});
+		&.no-breadcrumb {
+			height: calc(100vh - #{$headerHeight} - #{$wpHeader});
+		}
+		.mrf-settings-panel {
+			&:not(.mrf-settings-panel__sections) {
+				max-height: calc(100vh - #{$headerHeight} - #{$breadcrumbHeight} - #{$actionButtonsHeight} - #{$wpHeader});
+				min-height: calc(100vh - #{$headerHeight} - #{$breadcrumbHeight} - #{$actionButtonsHeight} - #{$wpHeader});
+				.no-breadcrumb & {
+					max-height: calc(100vh - #{$headerHeight} - #{$actionButtonsHeight} - #{$wpHeader});
+					min-height: calc(100vh - #{$headerHeight} - #{$actionButtonsHeight} - #{$wpHeader});
+				}
+			}
+			&.mrf-social-panel {
+				min-height: calc(100vh - #{$headerHeight} - 91px - #{$actionButtonsHeight} - #{$wpHeader});
+				max-height: calc(100vh - #{$headerHeight} - 91px - #{$actionButtonsHeight} - #{$wpHeader});
+			}
+		}
+		.mrf-sharing-panel-list {
+			min-height: calc(100vh - #{$headerHeight} - 91px - #{$actionButtonsHeight} - #{$wpHeader});
+			max-height: calc(100vh - #{$headerHeight} - 91px - #{$actionButtonsHeight} - #{$wpHeader});
+		}
+		.mrf-ads-panel__list {
+			min-height: calc(
+				100vh - #{$headerHeight} - #{$breadcrumbHeight} - #{$addSectionHeight} - #{$actionButtonsHeight} - #{$wpHeader}
+			);
+		}
+	}
+}
+
+// hide update notices
+.update-nag {
+	display: none !important;
+}
+
+html {
+	display: initial;
+	font-size: 14px;
+}
+
+.modal-open .modal {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#wpbody-content {
+	padding-bottom: 0;
+}

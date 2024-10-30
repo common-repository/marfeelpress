@@ -1,0 +1,26 @@
+@import "node_modules/marfeel-rainbow/src/scss/variables/__index";
+@import "node_modules/marfeel-rainbow/src/scss/mixins/__index";
+@import "node_modules/marfeel-rainbow/src/scss/functions/__index";
+@import "node_modules/marfeel-rainbow/src/scss/fonts/__index";
+@import "node_modules/marfeel-rainbow/src/scss/tooltip/__index";
+
+.mrf-wp {
+	@import "node_modules/marfeel-rainbow/dist/css/rainbow";
+	// default styles for the body. As we're wrapping rainbow, they're not applied anymore. So, we must replicate them
+	// on our namespace.
+	& {
+		margin: 0;
+		font-family: $font-family-base;
+		font-size: $font-size-base;
+		font-weight: $font-weight-base;
+		line-height: $line-height-base;
+		color: $body-color;
+		text-align: left;
+		background-color: $body-bg;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	.icon-input {
+		padding-left: 2.2rem;
+	}
+}

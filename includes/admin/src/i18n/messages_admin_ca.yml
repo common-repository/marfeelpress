@@ -1,0 +1,190 @@
+alerts.canManageAdsTxt: "No podem administrar el teu ads.txt automaticament, necessitem permissos d'escriptura a l'arxiu ads.txt para afegir las linies de Marfeel, pots trobar <a href='https://www.marfeel.com/docs/marfeelpress/activation-requirements.html#ads-txt-file-must-be-writable' target='_blank'>més informació aqui</a>"
+alerts.hasApiAccess: "Necessitem accès a l'API del teu wordpress per mostrar el contingut a la teva versiò de Marfeel, troba <a href='https://www.marfeel.com/docs/marfeelpress/activation-requirements.html#api-rest-must-be-accessible' target='_blank'>ajuda respecte l'us l'API</a>"
+alerts.hasEnoughContent: "El teu web no tiene prou articles per obtenir tot el profit de MarfeelPress. Si es un web de \"test\", et recomenem <a href='https://www.marfeel.com/docs/marfeelpress/activation-requirements.html#blog-must-have-at-least-3-posts-and-should-not-be-an-e-commerce-or-corporate-site' target='_blank'>cumplir els requeriments</a> i afegir més articles per testejar-ho, o revisar els nostres casos d'éxito a la nostra <a href='https://www.marfeel.com/' target='_blank'>pagina web</a>"
+alerts.hasDeviceDetection: "Estàs fent servir la mateixa versiò per als usuaris amb mòbil y amb ordinador, Marfeel sera més ràpid si actives la detecció de dispositius, <a href='https://www.marfeel.com/docs/marfeelpress/activation-requirements.html#cdn-cache-plugins-with-device-detection' target='_blank'>llegeix més d'aquest tema</a>"
+alerts.isLiveAvailable: "Ho sentim, la versiò de Marfeel encara no esta llesta, si us plau torna a provar-ho en uns minuts"
+
+# Appearance
+ui.panel: "versió de proves"
+site.identity: "Identitat del lloc"
+logo: "Logotip"
+logo.description: "Ha de ser un PNG transparent amb mides: 80px amplada per 90px alçada. Les mides recomenades son: 200px amplada per 80px alçada"
+font.main.title: "Tipus de lletra de la capçelera"
+font.secondary.title: "Tipus de lletra del cos"
+theme.title: "Esquema de colors"
+show_clock: "Mostrar el rellotge"
+
+color.select: "Tria el color"
+color.primary.title: "Color de la capçalera (color principal)"
+color.secondary.title: "Color secundari"
+
+social.title: "Xarxes socials"
+social.component: "Ordena les xarxes socials"
+social.description_1: "Arrossegar amunt les xarxes socials més rellevants. Es pot arrossegar qualsevol element d'un grup a l'altre."
+social.description_2: "Els quatre primers seran visibles, els altres seran mostrats al tocar la icona de més opcions."
+social.app_id: "Facebook App Id"
+social.app_id.description: "És necessari definir una aplicació de Facebook per tal de poder compartir nativament contingut. En case de no tenir-ne cap, s'utilitzarà una genèrica."
+social.twitter_account: "Compte de Twitter"
+social.twitter_account.description: "Afegeix el nom de la compte de twitter"
+
+amp: "AMP"
+amp.logo: " Logotip del carrusel d'AMP"
+amp.logo.description: "Ha de ser un PNG transparent amb mides: exactament 600px d'amplada o exactament 60px d'alçada. Ha de funcionar sobre fons blanc"
+
+lateral_menu: "Menú lateral"
+lateral_menu.search_bar: "Barra de cerca"
+lateral_menu.search_url: "Afegir la url de la cerca (opcional)"
+lateral_menu.search_name: "Afegir el parametre de la cerca"
+lateral_menu.home_name: "Nombre de seccion Home"
+lateral_menu.apps: "Aplicació Nativa"
+lateral_menu.apps_description: "(Només si ja tens una aplicació nativa del teu web)"
+lateral_menu.logo: "Icona de l'Aplicació"
+lateral_menu.logo.description: "mides PNG: 120px d'amplada per 120px d'alçada"
+
+topmedia: "Foto superior de l'article"
+topmedia.disable: "Desactivar la foto superior de l'article"
+topmedia.aspect_ratio: "Respectar la ràtio original"
+topmedia.enable_caption: "Activar peu de foto"
+topmedia.reading_time: "Mostrar temps de lectura"
+article_details: "Detalls del article"
+article_details.author: "Mostra l'autor"
+article_details.category: "Mostra la categoria"
+article_details.date: "Mostra la data de publicació"
+article_details.tags: "Mostra tags relacionats"
+article_mosaic: "Mosaic d'articles"
+article_mosaic.comments: "Mostrar comentaris"
+
+menus: "Menús"
+menus.new: "Nou menú"
+menus.new.name: "Nom nuo menú"
+menus.description: "This section is dedicated to the configuration of the menus"
+menus.location: "Ubicacions de menú"
+menus.location.description: "Seleccioneu el menú de Marfeel"
+
+cookies: "Cookies"
+cookies.policy: "Política de cookies"
+cookies.description: "Això és el que es mostrarà a un lector de la UE."
+cookies.link: "Link"
+
+footer: "Peu"
+footer.image: "Imatge del peu"
+footer.image.description: "Ha de ser un PNG transparent amb mides: 80px amplada per 80px alçada. Les mides recomenades son: 120px amplada per 120px alçada"
+footer.copy: "Copyright del peu"
+footer.copy.description: "Introduiu el text que voleu veure al peu personalitzat. No es permet HTML"
+footer.classic_version: "Versió clàssica"
+footer.classic_version.description: "Habilita el link a la versió clàssica del web"
+
+# Pages
+mrf.page.start: "Començant"
+mrf.page.general: "General"
+mrf.page.settings: "Configuració"
+mrf.page.account: "Compte"
+mrf.page.notifications: "Notificacions"
+
+# Settings
+mrf.setting.ads: "Publicitat"
+mrf.setting.adstxt: "Ads.txt"
+mrf.setting.metrics: "Metrics"
+mrf.setting.branding: "Branding"
+mrf.setting.comments: "Comentaris"
+mrf.setting.pwa_press: "PWA"
+mrf.setting.plugin: "Configuració"
+mrf.setting.onboarding: "Configuració inicial"
+mrf.setting.looknfeel: "Aparença"
+mrf.setting.sections: "Categories"
+mrf.setting.socialNetworks: "Social"
+mrf.setting.advertising: "Anuncis natius"
+
+action.save: "Desar canvis"
+
+mrf.activation: "Activació"
+mrf.activation.all: 'Tots els usuaris de dispositius mòbils. <span class="text-muted">Totes les sesions veuràn la versió de marfeel en dispositius mòbils</span>'
+mrf.activation.logged: "Usuaris registrats. <span class=\"text-muted\">Només les sesions d'usuaris registrats podràn veure aquesta versió</span>"
+mrf.activation.off: 'Ningú. Si selecciones aquesta opció, DESACTIVARÀS MarfeelPress. <div class="text-muted">Només tu poràs accedir a la previsualització de la versió de Marfeel.</div>'
+
+post.marfeelizable: "No Marfeelitzar aquest post"
+post.amp.active: "No activar AMP en aquest post"
+post.topmedia: "No mostrar la imatge superior d'aquest post"
+
+category.marfeelizable: "No Marfeelitzar"
+category.marfeelizable.description: "No Marfeelitzar aquest categoria"
+
+# Settings Template:
+plugin.availability: "Tria qui pot veure la versió Marfeelitzada:"
+mode.off: "Ningú"
+mode.logged: "Només usuaris registrats"
+mode.all: "Tots"
+
+
+# PWA Template:
+update: "Actualitza"
+activate: "Activa"
+manifest.name: "nom"
+manifest.shortname: "abreviatura"
+manifest.intro: "Configura com es veurà l'App"
+manifest.icon: "Icona de l'App"
+
+iso.lang: "ca-ES"
+
+# General
+activate.amp: "Activar AMP"
+activate.mrf_router: "Activar Warda (no recomenat si es fan servir plugins de cache o CDN personalitzats)"
+activate.mrf_router.warning-disabled: "No es pot activar Warda amb la configuració actual de cache"
+activate.mrf_router.warning-not-advisable: "No és recomanable activar Warda, teniu un plugin de caché no suportat"
+activate.custom_garda: "Utilitzar un script custom de Marfeel"
+activate.sticky-posts-on-top: "Respectar l'ordre d'els sticky posts"
+activate.leroy: "Activar pantalles de personalització de MarfeelPress"
+activate.cache: "Activar cache per les peticions de MarfeelPress"
+amp.error: "No es pot activar AMP perquè un dels següents plugins està activat: Marfeel o AMP"
+activate.multilanguage: "Activar Multilanguage"
+activate.multilanguage.options: "Llenguatges (ISO 639-1)"
+
+
+# Advanced
+tenant.name: "Nom del tenant"
+tenant.uri: "Url del tenant"
+authentication: "Autentificació"
+service.worker.name: "Nom del service worker"
+post_type: "Versió de Marfeel per:"
+insight_token.show: "Mostra Token d'Insight"
+insight_token.hide: "Amaga Token d'Insight"
+insight_token.label: "mrf-key"
+
+amp.url: AMP permalinks
+amp.url.params: Utilitzar parametres amb valor
+amp.url.paramsnv: Utilitzar parametres
+amp.url.segments: Utilitzar segments de la url
+amp.url.tooltip: Accelerated Mobile Pages (AMP) és un projecte creat per a millorar el rendiment dels webs per a dispositius mòbils.
+
+insight-token.not-signedin: "<b>MarfeelPress</b>: Perquè el plugin funcioni correctament has de completar el procés de <a href=\"/wp-admin/admin.php?page=mrf-signup\">signup/signin</a>."
+
+#Sticky ads
+above.shareOptions: "A sobre de les Share Options"
+below.shareOptions: "A sota de les Share Options"
+
+#offline
+offline.no.connection: "Sense connexió."
+offline.last.update.message: "Úlima actualizació"
+
+# Other
+home: "Portada"
+
+mrf.mobile_cache: "El teu plugin de cache no està detectan dispositius mòbils, vols que ho activem?"
+mrf.mobile_cache-then_warda: "Per activar WARDA el teu plugin de cache ha de detectar dispositius mòbils, vols que ho activem?"
+
+# Deactivation popup
+mrf.deactivation_popup.title: "Desactivar site"
+mrf.deactivation_popup.help_improving: "Ajuda a millorar MarfeelPress"
+mrf.deactivation_popup.fill_information: "Si us plau omple la següent informació"
+mrf.deactivation_popup.reason: "Raó per desactivar"
+mrf.deactivation_popup.additional_comments: "Comentaris adicionals"
+mrf.deactivation_popup.additional_comments_placeholder: "Comparteix qualsevol altre informació sobre la desactivació per tal de millorar el plugin"
+mrf.deactivation_popup.deactivate: "Desactivar"
+mrf.deactivation_popup.back: "Enrera"
+mrf.deactivation_popup.deactivation_logo_alt: "Deactivation logo"
+mrf.deactivation_popup.reason.doesnt_display: "La versió de Marfeel no es mostra al mòbil"
+mrf.deactivation_popup.reason.dont_see_ads: "No veig publicitat."
+mrf.deactivation_popup.reason.more_money: "Solia guanyar més diners abans d'utilitzar Marfeelpress."
+mrf.deactivation_popup.reason.menu_problem: "Hi ha un problema amb el meu menú."
+mrf.deactivation_popup.reason.others: "Altres."
+mrf.deactivation_popup.additional_comments_required: "El camp comentaris adicionals és necessari."

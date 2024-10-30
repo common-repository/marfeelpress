@@ -1,0 +1,30 @@
+$badge-red: #d54e21;
+
+#wpadminbar {
+	.plugin-count{
+		color: #FFF;
+	}
+
+	.mrf-steps-counter{
+		display: inline;
+		border-radius: 50%;
+		padding: 1px 7px 1px 6px;
+		background-color: $badge-red;
+	}
+}
+
+@media screen and (max-width: 782px) {
+	#wpadminbar{
+		#wp-admin-bar-marfeel-menu {
+		display: block;
+		position: static;
+		}
+
+		.mrf-logo{
+			height: 20px;
+			margin-left: 6px;
+			margin-bottom: 1px;
+		}
+	}
+	
+}

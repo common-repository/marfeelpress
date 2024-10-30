@@ -1,0 +1,15 @@
+.modal-content,
+.confetti-canvas {
+	transform: translateX(80px);
+}
+
+.mrf-wp .mrf-loadConfiguration {
+	.modal-header, .modal-footer {
+		justify-content: space-evenly;
+	}
+	.modal-header { padding-bottom: 0; }
+}
+
+#confirm-modal {
+	display: block;
+}

@@ -1,0 +1,7 @@
+$content-max-width: 1280px;
+
+@import "3p/_bootstrap";
+@import "./_wp-conflict";
+@import "./_wp-mrf-adminbar";
+@import "base/__index";
+@import "components/__index";

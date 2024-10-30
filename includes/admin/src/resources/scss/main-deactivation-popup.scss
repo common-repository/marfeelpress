@@ -1,0 +1,28 @@
+@import "3p/_bootstrap";
+
+.mrf-wp {
+  .deactivation-popup {
+    font-size: 14px;
+    .split-view-step__left {
+      width: 40%;
+    }
+    .modal-content {
+      background: linear-gradient(
+        to right,
+        $light-background-color 40%,
+        darken($color: $light-background-color, $amount: 10%) 1px,
+        $white calc(40% + 1px)
+      );
+    }
+    h4 {
+      font-size: 1.3rem;
+    }
+    .validation-error {
+      margin: 0.5rem 0;
+      padding: 0 5px;
+    }
+  }
+  legend {
+    font-size: 1rem;
+  }
+}

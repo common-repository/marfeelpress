@@ -1,0 +1,39 @@
+.wp-admin {
+	#wpbody-content {
+		padding-bottom: 0;
+	}
+
+	#wpfooter {
+		position: relative;
+	}
+}
+
+.admin_page {
+	&_looknfeel,
+	&_socialNetworks,
+	&_sections {
+		.mrf-app { max-width: none; }
+	}
+}
+
+.mrf-wp {
+	min-height: 100vh;
+
+	.main-content {
+		max-width: $content-max-width;
+		background-color: #FFF;
+		min-height: 100vh;
+
+		.settings-nav {
+			border-bottom: 2px solid $background-color;
+
+			.nav-link.active {
+				border-bottom: 2px solid $primary-active;
+			}
+		}
+	}
+}
+
+textarea {
+	width: 100%;
+}

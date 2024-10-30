@@ -1,0 +1,1 @@
+(function(){"use strict";self.params=self.params||{};Object.assign(self.params,location.search.substring(1).split("&").reduce(function(acc,s){var keyAndValue=s.split("="),key=keyAndValue[0],value=keyAndValue[1];acc[key]=value;return acc},{}));var host=self.params.resourcesHost||"https://bc.marfeelcdn.com";self.importScripts(host+"/statics/marfeel/sw-router.js")})();
